@@ -1,0 +1,14 @@
+@startuml deneme
+class TheApp{
+    ==state==
+    # Classifier
+    ==methods==
+    + useQuery(string: GET_CLASSIFIER)
+}
+TheApp *-- DatabaseManeger
+TheApp *-- Learner
+TheApp *-- DiagModal
+DiagModal *-- Diagnose
+Class02 : Object[] elementData
+@enduml
+

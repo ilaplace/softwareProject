@@ -1,0 +1,14 @@
+quart
+quart_cors
+python-dotenv
+python-jose
+flask_sqlalchemy
+six
+ariadne
+numpy
+pandas
+xlrd
+hypercorn
+scikit-learn
+imblearn
+joblib
